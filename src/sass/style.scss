@@ -2,6 +2,20 @@
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
-    font-weight: 700;
-    color: $main-color;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefits';
+
+@import 'media';
