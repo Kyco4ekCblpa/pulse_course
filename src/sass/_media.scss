@@ -162,6 +162,30 @@
             margin-top: 15px;
         }
     }
+
+    .consultation {
+        padding: 70px 0 60px;
+
+        .newliner {
+            display: none;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .feed-form {
+            margin: 36px auto 0;
+
+            width: 450px;
+        }
+    }
 }
 
 
@@ -219,6 +243,14 @@
             margin-top: 10px;
         }
     }
+
+    .consultation {
+        min-height: 650px;
+
+        .feed-form {
+            width: 350px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -256,5 +288,29 @@
         &__item {
             width: 90%;
         }
+    }
+
+    .consultation {
+        padding: 55px 0 40px;
+
+        min-height: 505px;
+
+        .title {
+            font-size: 22px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+
+        &__descr {
+            display: none;
+        }
+
+        .feed-form {
+            width: 250px;
+        }
+    }
+
+    .carousel {
+        padding: 50px 0 40px;
     }
 }

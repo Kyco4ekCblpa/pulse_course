@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
+
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -36,19 +38,19 @@
                 <div class="promo__icons">
                     <div class="promo__icon">
                         <img src="img/icons/timer.png" alt="timer">
-                        Время подбора: 
+                        Время подбора:
                         10 минут
                     </div>
 
                     <div class="promo__icon">
                         <img src="img/icons/delivery.png" alt="delivery">
-                        Бесплатная 
+                        Бесплатная
                         доставка
                     </div>
 
                     <div class="promo__icon">
                         <img src="img/icons/messages.png" alt="messages">
-                        Ответим 
+                        Ответим
                         на все вопросы
                     </div>
                 </div>
@@ -62,12 +64,13 @@
             </div>
 
         </div>
-    </div>
+    </section>
     <!-- /.promo -->
 
-    <div class="benefits">
+
+    <section class="benefits">
         <div class="container">
-            <h2 class="benefits__header">
+            <h2 class="title">
                 НАШИ ПРЕИМУЩЕСТВА
             </h2>
 
@@ -77,25 +80,68 @@
                         <img src="img/icons/cup.png" alt="cup">
                     </div>
                     <h3 class="benefits__title">Делимся опытом</h3>
-                    <div class="benefits__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                    <div class="benefits__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами
+                        бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="benefits__item">
                     <div class="benefits__icon">
                         <img src="img/icons/heart.png" alt="heart">
                     </div>
                     <h3 class="benefits__title">Заботимся о здоровье</h3>
-                    <div class="benefits__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                    <div class="benefits__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
+                        здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
                 <div class="benefits__item">
                     <div class="benefits__icon">
                         <img src="img/icons/shoe.png" alt="shoe">
                     </div>
                     <h3 class="benefits__title">Учим бегать</h3>
-                    <div class="benefits__text">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING</a>.</div>
+                    <div class="benefits__text">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой
+                        бега в России - <a href="#">I LOVE RUNNING</a>.</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- /.benefits -->
+
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию по<br class="newliner">
+                подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br class="newliner">
+                и мы перезвоним вам в течении 10 минут
+            </div>
+
+            <form class="feed-form" action="#">
+                <input name="name" type="text" required placeholder="Ваше имя">
+                <input name="phone" type="tel" required placeholder="Ваш телефон">
+                <input name="email" type="email" required placeholder="Ваш E-mail">
+
+                <button class="button button_submit">Заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+    <!-- /.consultation -->
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/carousel/slide_1.jpg" alt="slide_1"></div>
+                <div><img src="img/carousel/slide_2.jpg" alt="slide_2"></div>
+                <div><img src="img/carousel/slide_3.jpg" alt="slide_3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- /.carousel -->
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
