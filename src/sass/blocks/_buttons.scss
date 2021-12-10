@@ -12,6 +12,13 @@
 
     color: #fff;
 
+    transition: .2s all;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+
     &_main {
         margin-top: 67px;
 
@@ -28,5 +35,12 @@
         border-radius: 5px;
 
         font-size: 16px;
+    }
+
+    &_mini {
+        width: 131px;
+        height: 40px;
+
+        font-size: 14px;
     }
 }

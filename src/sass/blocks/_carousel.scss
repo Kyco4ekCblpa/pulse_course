@@ -46,7 +46,7 @@
         text-align: center;
 
         li {
-            margin-right: 3px;
+            margin: 0 2px;
 
             display: inline-block;
 
@@ -59,12 +59,7 @@
 
             cursor: pointer;
 
-
-            transition: all 1.5s;
-
-            &:last-child {
-                margin-right: 0;
-            }
+            transition: 1.5s all;
 
             button {
                 display: none;
