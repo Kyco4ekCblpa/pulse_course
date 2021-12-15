@@ -13,4 +13,18 @@
 
         color: #FFFFFF;
     }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        margin-bottom: 15px;
+
+        border: none;
+
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
 }
