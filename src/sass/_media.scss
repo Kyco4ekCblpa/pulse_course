@@ -464,7 +464,7 @@
         }
 
         &__address {
-            
+
             font-size: 16px;
         }
 
@@ -476,6 +476,38 @@
 
         &__social {
             margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .modal {
+        &__close {
+            top: -4px;
+            right: 4px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+
+    .pageup {
+        width: 45px;
+        height: 45px;
+        
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .modal {
+        width: 300px;
+        min-height: 360px;
+        padding: 25px 20px 20px;
+
+        &__close {
+            font-size: 30px;
+            line-height: 30px;
         }
     }
 }

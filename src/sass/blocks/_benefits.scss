@@ -30,6 +30,10 @@
         margin: 0 auto;
         max-width: 70px;
 
+        &_pulsing {
+            animation: heartbeat 1.5s ease infinite;
+        }
+
         img {
             width: 100%;
         }

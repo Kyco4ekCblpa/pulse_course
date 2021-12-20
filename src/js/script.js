@@ -131,5 +131,4 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: $(_href).offset().top-40+"px"});
         return false;
     });
-
 });
