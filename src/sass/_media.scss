@@ -423,6 +423,10 @@
                     font-size: 13px;
                     font-weight: 300;
                     line-height: 19px;
+
+                    &:last-child {
+                        bottom: -7px;
+                    }
                 }
             }
 
@@ -493,7 +497,7 @@
     .pageup {
         width: 45px;
         height: 45px;
-        
+
         bottom: 20px;
         right: 20px;
     }

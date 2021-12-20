@@ -114,7 +114,7 @@ $(document).ready(function () {
         return false;
     });
 
-    // smooth scroll + pageup
+    // pageup + smooth scroll 
 
     $(window).scroll(function (scr) {
         if ($(this).scrollTop() > 900) {
@@ -126,9 +126,14 @@ $(document).ready(function () {
     });
 
 
-    $("a[href^='#']").click(function() {
-        const _href = $(this).attr("href");
-        $("html, body").animate({scrollTop: $(_href).offset().top-40+"px"});
-        return false;
-    });
+    function smoothScroll (anchor) {
+        $(`a[href=#${anchor}]`).click(function() {
+            const _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top-40+"px"});
+            return false;
+        });
+    }
+
+    smoothScroll('up');
+    smoothScroll('catalog');
 });
